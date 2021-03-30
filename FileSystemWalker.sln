@@ -1,27 +1,19 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 10.00
-# Visual Studio 2008
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileSystemWalker", "FileSystemWalker.csproj", "{E133ECAD-4F5C-41E9-BB7F-FC6E1BC9C8FE}"
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.809.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "FileSystemWalker", "FileSystemWalker.shproj", "{EF66C83A-C7AC-4385-8515-E6295A419FE7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
-		Default|Any CPU = Default|Any CPU
-		Debug|Any CPU = Debug|Any CPU
-		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{E133ECAD-4F5C-41E9-BB7F-FC6E1BC9C8FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{E133ECAD-4F5C-41E9-BB7F-FC6E1BC9C8FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{E133ECAD-4F5C-41E9-BB7F-FC6E1BC9C8FE}.Default|Any CPU.ActiveCfg = Debug|Any CPU
-		{E133ECAD-4F5C-41E9-BB7F-FC6E1BC9C8FE}.Default|Any CPU.Build.0 = Debug|Any CPU
-		{E133ECAD-4F5C-41E9-BB7F-FC6E1BC9C8FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{E133ECAD-4F5C-41E9-BB7F-FC6E1BC9C8FE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
-	GlobalSection(MonoDevelopProperties) = preSolution
-		StartupItem = FileSystemWalker.csproj
-		Policies = $0
-		$0.DotNetNamingPolicy = $1
-		$1.DirectoryNamespaceAssociation = PrefixedHierarchical
-		$0.VersionControlPolicy = $2
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D836CB76-8CA6-43CC-96A7-7F326513F54F}
 	EndGlobalSection
 EndGlobal
