@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileSystemWalker", "FileSystemWalker.csproj", "{E133ECAD-4F5C-41E9-BB7F-FC6E1BC9C8FE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileSystemWalkerTests", "__utest\FuncTests\FileSystemWalkerTests.csproj", "{44DA18BC-82B5-418E-8294-4739F3460E22}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Default|Any CPU = Default|Any CPU
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{44DA18BC-82B5-418E-8294-4739F3460E22}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{44DA18BC-82B5-418E-8294-4739F3460E22}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{44DA18BC-82B5-418E-8294-4739F3460E22}.Default|Any CPU.ActiveCfg = Debug|Any CPU
+		{44DA18BC-82B5-418E-8294-4739F3460E22}.Default|Any CPU.Build.0 = Debug|Any CPU
+		{44DA18BC-82B5-418E-8294-4739F3460E22}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{44DA18BC-82B5-418E-8294-4739F3460E22}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E133ECAD-4F5C-41E9-BB7F-FC6E1BC9C8FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E133ECAD-4F5C-41E9-BB7F-FC6E1BC9C8FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E133ECAD-4F5C-41E9-BB7F-FC6E1BC9C8FE}.Default|Any CPU.ActiveCfg = Debug|Any CPU
+		{E133ECAD-4F5C-41E9-BB7F-FC6E1BC9C8FE}.Default|Any CPU.Build.0 = Debug|Any CPU
+		{E133ECAD-4F5C-41E9-BB7F-FC6E1BC9C8FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E133ECAD-4F5C-41E9-BB7F-FC6E1BC9C8FE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = FileSystemWalker.csproj
+	EndGlobalSection
+EndGlobal
