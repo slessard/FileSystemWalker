@@ -22,7 +22,7 @@ namespace com.pigdawg.utils.FileSystem
     
     public class FileSystemWalkerDiagnosticEventArgs : EventArgs
     {
-        private FileSystemWalkerDiagnostic m_diagnostic;
+        private readonly FileSystemWalkerDiagnostic m_diagnostic;
         
         internal FileSystemWalkerDiagnosticEventArgs(FileSystemWalkerDiagnostic diagnostic)
         {
@@ -40,7 +40,7 @@ namespace com.pigdawg.utils.FileSystem
     
     public class DirectoryFoundEventArgs : EventArgs
     {
-        private DirectoryInfo m_info;
+        private readonly DirectoryInfo m_info;
         
         public DirectoryFoundEventArgs(DirectoryInfo info)
         {
@@ -58,7 +58,7 @@ namespace com.pigdawg.utils.FileSystem
     
     public class FileFoundEventArgs : EventArgs
     {
-        private FileInfo m_info;
+        private readonly FileInfo m_info;
         
         public FileFoundEventArgs(FileInfo info)
         {
